@@ -36,13 +36,16 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="btc-VY-Sit" kind="modal" identifier="UpdateDevice" modalTransitionStyle="crossDissolve" id="1VQ-xW-cYY"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" title="Devices" id="Mu6-dN-Yu8">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="kuG-UJ-SSR">
                             <connections>
-                                <segue destination="btc-VY-Sit" kind="modal" id="Cf2-1D-lyq"/>
+                                <segue destination="btc-VY-Sit" kind="modal" identifier="AddDevice" id="Cf2-1D-lyq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -133,4 +136,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="1VQ-xW-cYY"/>
+    </inferredMetricsTieBreakers>
 </document>

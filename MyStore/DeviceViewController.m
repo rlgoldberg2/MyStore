@@ -143,7 +143,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -151,8 +151,14 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+ if ([[segue identifier] isEqualToString:@"UpdateDevice"]) {
+     NSManagedObject *selectedDevice = [self.devices objectAtIndex:[[self.tableView indexPathForSelectedRow] row]];
+     DeviceDetailViewController *destViewController = segue.destinationViewController;
+     destViewController.device = selectedDevice;
+ }
+ 
 }
 
- */
+
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DeviceDetailViewController.h"
 
 @interface DeviceViewController : UITableViewController
 
