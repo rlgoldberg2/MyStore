@@ -23,6 +23,8 @@
 		7914B2C01808518100A8F989 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7914B2BE1808518100A8F989 /* InfoPlist.strings */; };
 		7914B2C21808518100A8F989 /* MyStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914B2C11808518100A8F989 /* MyStoreTests.m */; };
 		7914B2CC180851F600A8F989 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7914B2CB180851F600A8F989 /* Storyboard.storyboard */; };
+		7914B2CF1808550500A8F989 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914B2CE1808550500A8F989 /* DeviceViewController.m */; };
+		7914B2D21808552C00A8F989 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914B2D11808552C00A8F989 /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		7914B2BF1808518100A8F989 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7914B2C11808518100A8F989 /* MyStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStoreTests.m; sourceTree = "<group>"; };
 		7914B2CB180851F600A8F989 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7914B2CD1808550500A8F989 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		7914B2CE1808550500A8F989 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		7914B2D01808552C00A8F989 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		7914B2D11808552C00A8F989 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				7914B2AD1808518100A8F989 /* Images.xcassets */,
 				7914B2AA1808518100A8F989 /* MyStore.xcdatamodeld */,
 				7914B2CB180851F600A8F989 /* Storyboard.storyboard */,
+				7914B2CD1808550500A8F989 /* DeviceViewController.h */,
+				7914B2CE1808550500A8F989 /* DeviceViewController.m */,
+				7914B2D01808552C00A8F989 /* DeviceDetailViewController.h */,
+				7914B2D11808552C00A8F989 /* DeviceDetailViewController.m */,
 				7914B29F1808518100A8F989 /* Supporting Files */,
 			);
 			path = MyStore;
@@ -252,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7914B2CF1808550500A8F989 /* DeviceViewController.m in Sources */,
 				7914B2A91808518100A8F989 /* AppDelegate.m in Sources */,
+				7914B2D21808552C00A8F989 /* DeviceDetailViewController.m in Sources */,
 				7914B2AC1808518100A8F989 /* MyStore.xcdatamodeld in Sources */,
 				7914B2A51808518100A8F989 /* main.m in Sources */,
 			);
